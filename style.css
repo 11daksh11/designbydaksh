@@ -14,7 +14,6 @@ body{
     color: #7A7C80;
 
 }
-
 h2,.white{
     color: #fff;
 }
@@ -25,10 +24,19 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top: 25vh;
     text-align: center;
 }
-
+img {
+    max-width: auto;
+    border-radius: 50%;
+    border-width: 100;
+    height: auto;
+    box-shadow: inset 0px 40px 0px 0px #101214;
+    /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+    
+  }
 .section-1 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
