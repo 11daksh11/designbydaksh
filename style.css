@@ -595,6 +595,7 @@ xclip
 }
 
 .btn-hover-new::after {
+    
     content: attr(data-text);
     position: absolute;
     width: 100%;
@@ -618,8 +619,9 @@ xclip
 }
 
 .btn-hover-new:hover{
-	color: #ffffff;
-	background-color: #333333;
+	color: #333333;
+	background-color: #87D1FB;
+    border: 1px #87D1FB;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
